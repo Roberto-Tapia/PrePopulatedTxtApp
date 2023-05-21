@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+
+#root {
+  width: 99vw;
+  height: 99vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 350px;
+  height: 750px;
+  left: 44px;
+  top: 82px;
+  margin: 0 auto;
+  
+  background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 28px, transparent 28px) 0% 0%/30px 30px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 28px, transparent 28px) 100% 0%/30px 30px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 28px, transparent 28px) 0% 100%/30px 30px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 28px, transparent 28px) 100% 100%/30px 30px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 4px) calc(100% - 60px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 60px) calc(100% - 4px) no-repeat,
+            linear-gradient(90deg, rgba(50,186,72,1) 0%, rgba(102,182,227,1) 100%);
+  border-radius: 30px;
+  padding: 2px;
+  box-sizing: content-box;
+  box-shadow: 5px 10px 9px rgba(150, 173, 218, 0.42);
+}
+
+
+
+
+
+
+
+
+.bubbleImage {
+  width: 58px;
+  height: 58px;
+  left: 186px;
+  top: 123px;
+  margin-top: 41px;
+}
+
+span {
+  margin-top: 32px;
+  font-size: 20px;
+  font-family: 'Inika', serif;
+  font-style: normal;
+  letter-spacing: 0.035em;
+  text-align: center;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-placeholder::placeholder {
+  text-align: left;
+  padding-right: 5px;
+}
+
+button {
+  width: 60px;
+  align-self: flex-end;
+}
