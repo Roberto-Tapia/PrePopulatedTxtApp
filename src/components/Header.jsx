@@ -1,4 +1,4 @@
-const Header =  () => {
+const Header =  (props) => {
     return (
         <>
             <img src="/bubble.svg" alt="bubbleImage" className="bubbleImage"/>
