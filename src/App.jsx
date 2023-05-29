@@ -24,13 +24,12 @@ function App() {
     alert('Sorry, this feature is not yet available. Have a cookie in the meantime 🍪')
   }
 
-  console.log(`sms:${value}/?&amp;body=${messageValue}`)
   return (
     <>
       <Header />
       <Main handleChange={handleChange}  handleMessageChange={handleMessageChange}/>
       <Embedded handleClick={handleClick} value={value} messageValue={messageValue} />
-      <Footer txtLink={`href="sms:${value}/?&amp;body=${messageValue}"`}/>
+      <Footer txtLink={`"sms:${value}/?&amp;body=${messageValue}"`}/>
     </>
   )
 }
