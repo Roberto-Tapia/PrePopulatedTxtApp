@@ -13,7 +13,12 @@ const Main =  (props) => {
                 onChange={props.handleChange}
                 />
                 <span>Txt Message</span>
-                <textarea name="txtMessage" cols="30" rows="8"></textarea>
+                <textarea
+                name="txtMessage" 
+                cols="30" 
+                rows="8"
+                onChange={props.handleMessageChange}
+                ></textarea>
             </form>
         </div>
     )

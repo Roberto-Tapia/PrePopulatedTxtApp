@@ -65,3 +65,8 @@ button {
   width: 60px;
   align-self: flex-end;
 }
+
+.testButton {
+  align-self: center;
+  margin-top: 10px;
+}
