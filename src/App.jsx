@@ -29,7 +29,8 @@ function App() {
       <Header />
       <Main handleChange={handleChange}  handleMessageChange={handleMessageChange}/>
       <Embedded handleClick={handleClick} value={value} messageValue={messageValue} />
-      <Footer txtLink= {`sms:${value}/?&amp;body=HeyDudegit`}/>
+      {/* <Footer txtLink= {`sms:${value}/?&amp;body=HeyDudegit`}/> */}
+      <Footer txtLink="sms:6199990202/?&body=I'd like to book an appointment"/>
     </>
   )
 }
