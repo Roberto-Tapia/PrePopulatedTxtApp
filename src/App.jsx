@@ -29,7 +29,7 @@ function App() {
       <Header />
       <Main handleChange={handleChange}  handleMessageChange={handleMessageChange}/>
       <Embedded handleClick={handleClick} value={value} messageValue={messageValue} />
-      <Footer txtLink={`href="sms:${value}/?&amp;body=${messageValue}"`}/>
+      <Footer txtLink={`href='sms:${value}/?&amp;body=${messageValue}'`}/>
     </>
   )
 }
