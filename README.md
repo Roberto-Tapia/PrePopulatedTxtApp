@@ -3,7 +3,7 @@ This webapp is made up of 2 form inputs in which the user can insert a phone num
 
 **Link to project:** https://generatetxt.netlify.app/
 
-![alt tag](https://imgur.com/a/jE3e6lQ)
+![alt tag](https://imgur.com/vrvLUzk)
 
 ## How It's Made:
 
